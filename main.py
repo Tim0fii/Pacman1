@@ -66,6 +66,24 @@ game_over = False
 game_won = False
 
 
+def draw_misc():
+    score_text = font.render(f'Рахунок: {score}', True, 'white')
+    screen.blit(score_text, (10, 920))
+    if powerup:
+        pygame.draw.circle(screen, 'blue', (140, 930), 15)
+    for i in range(lives):
+        screen.blit(pygame.transform.scale(player_images[0], (30, 30)), (650 + i * 40, 915))
+    if game_over:
+        pygame.draw.rect(screen, 'white', [50, 200, 800, 300],0, 10)
+        pygame.draw.rect(screen, 'dark gray', [70, 220, 760, 260], 0, 10)
+        gameover_text = font.render('Гру завершено! Натисніть пробіл, щоб почати спочатку!', True, 'red')
+        screen.blit(gameover_text, (100, 300))
+    if game_won:
+        pygame.draw.rect(screen, 'white', [50, 200, 800, 300],0, 10)
+        pygame.draw.rect(screen, 'dark gray', [70, 220, 760, 260], 0, 10)
+        gameover_text = font.render('Перемога! Натисніть пробіл, щоб почати спочатку!', True, 'green')
+        screen.blit(gameover_text, (100, 300))
+
 def draw_board():
     num1 = ((HEIGHT - 50) // 32)
     num2 = (WIDTH // 30)
@@ -109,3 +127,4 @@ def draw_player():
         screen.blit(pygame.transform.rotate(player_images[counter // 5], 90), (player_x, player_y))
     elif direction == 3:
         screen.blit(pygame.transform.rotate(player_images[counter // 5], 270), (player_x, player_y))
+
