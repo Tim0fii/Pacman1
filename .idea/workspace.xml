@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="985f8a50-5635-4127-a8e2-60efe90d97ef" name="Changes" comment="created class Ghost and func __init__" />
+    <list default="true" id="985f8a50-5635-4127-a8e2-60efe90d97ef" name="Changes" comment="workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,12 +36,22 @@
     &quot;assignee&quot;: &quot;MykhailynaMarta&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Tim0fii/Pacman1.git&quot;,
-    &quot;accountId&quot;: &quot;f21d5463-a357-4f49-a129-e7305c7b0a0b&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Tim0fii/Pacman1.git",
+    "accountId": "f21d5463-a357-4f49-a129-e7305c7b0a0b"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "Tim0fii",
+    "repository": "Pacman1"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -50,9 +63,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "creating__board",
+    "git-widget-placeholder": "#6 on creating__board",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746350597402</updated>
       <workItem from="1746350598662" duration="1376000" />
-      <workItem from="1746362362820" duration="724000" />
+      <workItem from="1746362362820" duration="2265000" />
     </task>
     <task id="LOCAL-00001" summary="created requirements.txt">
       <option name="closed" value="true" />
@@ -129,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746363013659</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1746363119156</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746363119156</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +162,10 @@
     <MESSAGE value="created requirements.txt" />
     <MESSAGE value="added basic settings" />
     <MESSAGE value="created class Ghost and func __init__" />
-    <option name="LAST_COMMIT_MESSAGE" value="created class Ghost and func __init__" />
+    <MESSAGE value="workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Pacman1$main.coverage" NAME="main Coverage Results" MODIFIED="1746363846777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
