@@ -115,4 +115,17 @@ def draw_board():
                                  (j * num2 + num2, i * num1 + (0.5 * num1)), 3)
 
     pygame.display.flip()
+
+def draw_player():
+    # 0-RIGHT, 1-LEFT, 2-UP, 3-DOWN
+    if direction == 0:
+        screen.blit(player_images[counter // 5], (player_x, player_y))
+    elif direction == 1:
+        screen.blit(pygame.transform.flip(player_images[counter // 5], True, False), (player_x, player_y))
+    elif direction == 2:
+        screen.blit(pygame.transform.rotate(player_images[counter // 5], 90), (player_x, player_y))
+    elif direction == 3:
+        screen.blit(pygame.transform.rotate(player_images[counter // 5], 270), (player_x, player_y))
+
+
 pygame.quit()
