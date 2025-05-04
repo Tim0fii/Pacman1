@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="985f8a50-5635-4127-a8e2-60efe90d97ef" name="Changes" comment="added gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="985f8a50-5635-4127-a8e2-60efe90d97ef" name="Changes" comment="created class Ghost and func __init__" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746350597402</updated>
       <workItem from="1746350598662" duration="1376000" />
-      <workItem from="1746362362820" duration="360000" />
+      <workItem from="1746362362820" duration="724000" />
     </task>
     <task id="LOCAL-00001" summary="created requirements.txt">
       <option name="closed" value="true" />
@@ -116,7 +113,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746351786592</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added basic settings">
+      <option name="closed" value="true" />
+      <created>1746362775185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746362775185</updated>
+    </task>
+    <task id="LOCAL-00003" summary="created class Ghost and func __init__">
+      <option name="closed" value="true" />
+      <created>1746363013659</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746363013659</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +138,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="created requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="created requirements.txt" />
+    <MESSAGE value="added basic settings" />
+    <MESSAGE value="created class Ghost and func __init__" />
+    <option name="LAST_COMMIT_MESSAGE" value="created class Ghost and func __init__" />
   </component>
 </project>
