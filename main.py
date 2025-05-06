@@ -202,3 +202,24 @@ def move_player(play_x, play_y):
         play_y += player_speed
     return play_x, play_y
 
+run = True
+while run:
+    timer.tick(fps)
+    if counter < 19:
+        counter += 1
+        if counter > 3:
+            flicker = False
+    else:
+        counter = 0
+        flicker = True
+    if powerup and power_counter < 600:
+        power_counter += 1
+    elif powerup and power_counter >= 600:
+        power_counter = 0
+        powerup = False
+        eaten_ghost = [False, False, False, False]
+    if startup_counter < 180 and not game_over and not game_won:
+        moving = False
+        startup_counter += 1
+    else:
+        moving = True
