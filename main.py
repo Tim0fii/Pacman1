@@ -7,7 +7,7 @@ pygame.init()
 
 
 WIDTH = 900
-HEIGHT = 650
+HEIGHT = 450
 screen = pygame.display.set_mode([WIDTH, HEIGHT])
 timer = pygame.time.Clock()
 fps = 60
@@ -65,6 +65,16 @@ lives = 3
 game_over = False
 game_won = False
 
+class Drawing:
+    def __init__(self, boards):
+        self.WIDTH = 900
+        self.HEIGHT = 450
+        self.screen = pygame.display.set_mode([self.WIDTH, self.HEIGHT])
+        self.timer = pygame.time.Clock()
+        self.fps = 60
+        self.font = pygame.font.Font('freesansbold.ttf', 20)
+        self.level = copy.deepcopy(boards)
+        self.color = 'blue'
 
 def draw_misc():
     score_text = font.render(f'Рахунок: {score}', True, 'white')
